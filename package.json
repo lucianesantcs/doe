@@ -1,0 +1,21 @@
+{
+  "name": "doesangue_maratonadev",
+  "version": "1.0.0",
+  "description": "Projeto DOE desenvolvido na Maratona Dev pela Rocketseat",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "nodemon src/services/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
